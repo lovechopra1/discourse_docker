@@ -5,7 +5,7 @@ MAINTAINER Sam Saffron "https://twitter.com/samsaffron"
 
 RUN useradd discourse -s /bin/bash -m -U &&\
     mkdir /var/www && cd /var/www &&\
-     git clone https://github.com/discourse/discourse.git &&\
+     git clone https://github.com/lovechopra1/discourse.git &&\
      cd discourse &&\
      git remote set-branches --add origin tests-passed &&\
      cd .. &&\
